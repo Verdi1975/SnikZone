@@ -1,0 +1,56 @@
+<style>
+@media only screen and (max-width: 800px) {
+    .div_whats { 
+        position: fixed; 
+        z-index:98765431; 
+        right: 5px; 
+        bottom: 5px; 
+        padding: 15px 0px 15px 15px; 
+        -moz-border-radius: 5px 5px 0 0; 
+        -webkit-border-radius: 5px 5px 0 0; 
+        border-radius: 5px 5px 0 0;
+    }
+    .div_whats:hover img{
+        opacity:0.5;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .div_whats { 
+        position: fixed; 
+        z-index:98765431; 
+        right: 5px; 
+        bottom: 5px; 
+        padding: 15px 0px 15px 15px;  
+        -moz-border-radius: 5px 5px 0 0; 
+        -webkit-border-radius: 5px 5px 0 0; 
+        border-radius: 5px 5px 0 0;
+    }
+    .div_whats:hover img {
+        opacity:0.5;    
+    }
+}
+
+<div style="" class="div_whats">
+    <a href="https://api.whatsapp.com/send?lpt_BR&amp;phone=5551992969170" target="_blank">
+        <center><img src="https://raiozhost.com//img_temp/icon-whats.png" width="45"></center>    
+    </a>
+</div>
+
+<a href="https://api.whatsapp.com/send?lpt_BR&amp;phone=5511998765432" target="_blank">
+
+
+    @media only screen and (max-width: 800px) {
+    .div_whats{ 
+         right: 50px; 
+        bottom: 50px; 
+    }
+}
+
+media only screen and (min-width: 801px) {
+    .div_whats { 
+        right: 10px; 
+        bottom: 40px; 
+    }
+}
+</style>
